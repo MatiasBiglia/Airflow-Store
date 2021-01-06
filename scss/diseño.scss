@@ -1,0 +1,97 @@
+$body-font: 'Lato', sans-serif;
+$tittle-font:'Staatliches', cursive;
+
+@import "footer";
+@import "poweredby";
+@import "navbar";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $body-font;
+    .card{
+        margin-top: 5px;
+    }
+    .card__h2 {
+        font-family: $tittle-font;
+        background-color:black;
+        color: white;
+        animation-duration: 2s;
+        animation-name: alerta;
+        animation-iteration-count: infinite;
+        text-align: center;
+    }
+
+    article{
+        margin-bottom: 5px;
+    }
+    .catalogo__carrousel__h2 {
+        font-family: $tittle-font;
+        background-color:black;
+        color: white;
+        animation-duration: 2s;
+        animation-name: alerta;
+        animation-iteration-count: infinite;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .catalogo__carrousel__h5 {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .catalogo__carrousel__ul{
+        list-style-type: none;
+    }
+    .contacto__aceptaCondicion {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-family: $tittle-font;
+        transition: all 1s;
+        display: list-item;
+    }
+    .whatsapp-button {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        width: 4rem;
+        height: 4rem;
+        color: white;
+        background: #25d366;
+        border-radius: 50%;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        z-index: 10;
+        transition: 0.15s;
+        text-decoration: none;
+        &:hover{
+            outline: none;
+            color: white;
+        }
+    }
+    
+
+}
+
+header {
+    background-color: white;
+    .header__div__logo {
+        width: 100%;
+    }
+}
+
+
+@keyframes alerta{
+    0% { opacity: 0.1;}
+    100% { opacity: 1;}
+}
+
+
+
+

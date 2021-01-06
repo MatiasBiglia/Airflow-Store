@@ -1,0 +1,33 @@
+nav {
+    background-color: #0D0D0D;
+    margin-top: 5px;
+    transition: all 3s;
+    height: 47rem;
+    &:hover{
+        background-image: linear-gradient(to left,rgb(31, 83, 141), black);
+    }
+    .nav__ul{
+        text-align: center;
+    }
+    .nav__ul__li{
+        list-style-type: none;
+        list-style: none;
+    }
+
+    .nav__ul__li__a {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+        list-style: none;
+        font-size: 3rem;
+        padding-top: 3.5rem;
+        font-family: $tittle-font;
+        transition: all 1s;
+        display: list-item;
+         &:hover{
+            color: rgb(68, 102, 139);
+        }
+
+    }
+
+}

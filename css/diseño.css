@@ -1,0 +1,143 @@
+footer {
+  text-align: center;
+  margin-top: 5px;
+  margin-right: calc(var(--bs-gutter-x)/ 2);
+  margin-left: calc(var(--bs-gutter-x)/ 2);
+  background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), black); }
+  footer .footer__div__isotipo {
+    width: 100%; }
+  footer .footer__div__h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Staatliches", cursive;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 4rem; }
+  footer .footer__div__ul {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    list-style-type: none; }
+  footer .footer__div__last-child__ul {
+    display: flex;
+    justify-content: space-around; }
+  footer .footer__div__ul__links {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+    display: list-item;
+    font-size: 2rem;
+    font-family: "Lato", sans-serif; }
+    footer .footer__div__ul__links:hover {
+      color: #44668b; }
+
+.powered-by {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-family: "Staatliches", cursive; }
+  .powered-by:hover {
+    color: #1f538d; }
+
+.power {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+nav {
+  background-color: #0D0D0D;
+  margin-top: 5px;
+  transition: all 3s;
+  height: 47rem; }
+  nav:hover {
+    background-image: linear-gradient(to left, #1f538d, black); }
+  nav .nav__ul {
+    text-align: center; }
+  nav .nav__ul__li {
+    list-style-type: none;
+    list-style: none; }
+  nav .nav__ul__li__a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-size: 3rem;
+    padding-top: 3.5rem;
+    font-family: "Staatliches", cursive;
+    transition: all 1s;
+    display: list-item; }
+    nav .nav__ul__li__a:hover {
+      color: #44668b; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif; }
+  body .card {
+    margin-top: 5px; }
+  body .card__h2 {
+    font-family: "Staatliches", cursive;
+    background-color: black;
+    color: white;
+    animation-duration: 2s;
+    animation-name: alerta;
+    animation-iteration-count: infinite;
+    text-align: center; }
+  body article {
+    margin-bottom: 5px; }
+  body .catalogo__carrousel__h2 {
+    font-family: "Staatliches", cursive;
+    background-color: black;
+    color: white;
+    animation-duration: 2s;
+    animation-name: alerta;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-top: 5px; }
+  body .catalogo__carrousel__h5 {
+    background-color: rgba(0, 0, 0, 0.6); }
+  body .catalogo__carrousel__ul {
+    list-style-type: none; }
+  body .contacto__aceptaCondicion {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: "Staatliches", cursive;
+    transition: all 1s;
+    display: list-item; }
+  body .whatsapp-button {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    background: #25d366;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    z-index: 10;
+    transition: 0.15s;
+    text-decoration: none; }
+    body .whatsapp-button:hover {
+      outline: none;
+      color: white; }
+
+header {
+  background-color: white; }
+  header .header__div__logo {
+    width: 100%; }
+
+@keyframes alerta {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
