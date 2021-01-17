@@ -1,12 +1,13 @@
-footer {
+/*Variables*/
+/*Importaciones de scss */
+.footer {
   text-align: center;
-  margin-top: 5px;
-  margin-right: calc(var(--bs-gutter-x)/ 2);
-  margin-left: calc(var(--bs-gutter-x)/ 2);
+  margin-top: 0.5rem;
+  margin-left: 0.1rem;
   background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), black); }
-  footer .footer__div__isotipo {
+  .footer .footer__div__isotipo {
     width: 100%; }
-  footer .footer__div__h4 {
+  .footer .footer__div__h4 {
     color: white;
     text-transform: uppercase;
     font-family: "Staatliches", cursive;
@@ -14,22 +15,22 @@ footer {
     font-weight: bold;
     margin-bottom: 2rem;
     margin-top: 4rem; }
-  footer .footer__div__ul {
+  .footer .footer__div__ul {
     list-style: none;
     display: list-item;
     text-align: center;
     list-style-type: none; }
-  footer .footer__div__last-child__ul {
+  .footer .footer__div__last-child__ul {
     display: flex;
     justify-content: space-around; }
-  footer .footer__div__ul__links {
+  .footer .footer__div__ul__links {
     text-decoration: none;
     color: white;
     transition: all 1s;
     display: list-item;
     font-size: 2rem;
     font-family: "Lato", sans-serif; }
-    footer .footer__div__ul__links:hover {
+    .footer .footer__div__ul__links:hover {
       color: #44668b; }
 
 .powered-by {
@@ -48,7 +49,7 @@ footer {
 
 nav {
   background-color: #0D0D0D;
-  margin-top: 5px;
+  margin-top: 0.5rem;
   transition: all 3s;
   height: 47rem; }
   nav:hover {
@@ -79,7 +80,7 @@ nav {
 body {
   font-family: "Lato", sans-serif; }
   body .card {
-    margin-top: 5px; }
+    margin-top: 0.5rem; }
   body .card__h2 {
     font-family: "Staatliches", cursive;
     background-color: black;
@@ -98,7 +99,7 @@ body {
     animation-name: alerta;
     animation-iteration-count: infinite;
     text-align: center;
-    margin-top: 5px; }
+    margin-top: 0.5rem; }
   body .catalogo__carrousel__h5 {
     background-color: rgba(0, 0, 0, 0.6); }
   body .catalogo__carrousel__ul {

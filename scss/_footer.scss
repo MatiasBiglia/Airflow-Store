@@ -1,8 +1,7 @@
-footer { 
+.footer { 
     text-align: center;
-    margin-top: 5px;
-    margin-right: calc(var(--bs-gutter-x)/ 2);
-    margin-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: 0.5rem;
+    margin-left: 0.1rem;
     background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), black);
 
     .footer__div__isotipo{

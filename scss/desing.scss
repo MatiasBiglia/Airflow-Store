@@ -1,6 +1,7 @@
+/*Variables*/
 $body-font: 'Lato', sans-serif;
 $tittle-font:'Staatliches', cursive;
-
+/*Importaciones de scss */ 
 @import "footer";
 @import "poweredby";
 @import "navbar";
@@ -13,7 +14,7 @@ $tittle-font:'Staatliches', cursive;
 body {
     font-family: $body-font;
     .card{
-        margin-top: 5px;
+        margin-top: 0.5rem;
     }
     .card__h2 {
         font-family: $tittle-font;
@@ -36,7 +37,7 @@ body {
         animation-name: alerta;
         animation-iteration-count: infinite;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 0.5rem;
     }
     .catalogo__carrousel__h5 {
         background-color: rgba(0, 0, 0, 0.6);
