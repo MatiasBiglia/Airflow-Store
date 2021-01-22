@@ -3,42 +3,48 @@
     margin-top: 0.5rem;
     margin-left: 0.1rem;
     background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), black);
-
-    .footer__div__isotipo{
-        width: 100%;
-    }
-
     .footer__div__h4 {
         color: white;
         text-transform: uppercase;
         font-family: $tittle-font;
-        font-size: 1.25rem;
+        font-size: 2rem;
         font-weight: bold;
         margin-bottom: 2rem;
         margin-top: 4rem;
-      }
-
-      .footer__div__ul {
-        list-style: none;
-        display: list-item;
         text-align: center;
-        list-style-type: none;
+      }
+      .footer__div__h5{
+        color: white;
+        font-family: $tittle-font;
+        font-size: 1.8rem;
+        font-weight: lighter;
+        justify-content: space-around;
+        margin-right: 0.5rem;
+      }
+      .footer__div__ul {
+        list-style: square;
+        text-align: start;
+        margin-right: 6rem;
     }
     
     .footer__div__last-child__ul {
         display: flex;
         justify-content:space-around;
+        list-style: none;
+        text-align: start;
     }
     .footer__div__ul__links{
         text-decoration: none;
         color: white;
         transition: all 1s;
         display: list-item;
-        font-size: 2rem;
+        font-size: 1.1rem;
         font-family: $body-font;
         &:hover{
             color: rgb(68, 102, 139);
         }
     }
+    .redes {
+        font-size: 2rem;
+    }
 }
-

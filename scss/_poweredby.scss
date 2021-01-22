@@ -1,16 +1,5 @@
-.powered-by {
-    color: white;
-    display: flex;
-    text-decoration: none;
-    font-family: $tittle-font;
-    &:hover{
-        color: rgb(31, 83, 141);
-    }
-}
-
 .power {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
 }
