@@ -1,6 +1,7 @@
 /*Variables*/
 $body-font: 'Lato', sans-serif;
 $tittle-font:'Staatliches', cursive;
+$back-color: rgb(18,18,18);
 /*Importaciones de scss */ 
 @import "footer";
 @import "poweredby";
@@ -18,7 +19,7 @@ body {
     }
     .card__h2 {
         font-family: $tittle-font;
-        background-color:black;
+        background-color:$back-color;
         color: white;
         animation-duration: 2s;
         animation-name: alerta;
@@ -31,7 +32,7 @@ body {
     }
     .catalogo__carrousel__h2 {
         font-family: $tittle-font;
-        background-color:black;
+        background-color:$back-color;
         color: white;
         animation-duration: 2s;
         animation-name: alerta;
@@ -49,7 +50,7 @@ body {
     .contacto__aceptaCondicion {
         text-decoration: none;
         list-style-type: none;
-        color: black;
+        color: $back-color;
         font-family: $tittle-font;
         transition: all 1s;
         display: list-item;
@@ -76,6 +77,9 @@ body {
             color: white;
         }
     }
+    .politicas {
+        font-family: $body-font;
+    }
 }
 header {
     background-color: white;
@@ -85,11 +89,31 @@ header {
         text-align: center;
         margin-top: 1.2rem;
     }
-    .header__div__logos {
+    .header__div{
+        justify-content: center;
+        align-items: center;
+    }  
+    .header__div__logo {
         width: 100%;
-    }   
+        padding-left: 15%;
+        padding-right: 15%;
+    } 
+    .header__div__banner {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
 }
 @keyframes alerta{
     0% { opacity: 0.1;}
     100% { opacity: 1;}
+}
+
+.nosotros__card__h2{
+    font-family: $tittle-font;
+}
+
+.nosotros__card__p{
+    font-family: $body-font;
 }

@@ -1,11 +1,11 @@
 nav {
-    background-color: #0D0D0D;
+    background-color:$back-color;
     margin-top: 0.5rem;
     transition: all 3s;
     height: 98%;
     margin-bottom: 0.5rem;
     &:hover{
-        background-image: linear-gradient(to left,rgb(31, 83, 141), black);
+        background-image: linear-gradient(to left,rgb(31, 83, 141), $back-color);
     }
     .nav__ul{
         text-align: center;
@@ -21,7 +21,7 @@ nav {
         list-style-type: none;
         list-style: none;
         font-size: 3rem;
-        padding-top: 3.5rem;
+        padding-top: 25%;
         font-family: $tittle-font;
         transition: all 1s;
         display: list-item;

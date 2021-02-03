@@ -21,20 +21,26 @@
 <body>
     <!--Inicio de boton Whatsapp-->
     <a class="whatsapp-button" target="blank" href="https://web.whatsapp.com/send?phone=+5493517038854&text=Hola%20Airflow!%20C%C3%B3mo%20est%C3%A1n?%20Tengo%20una%20consulta%20sobre%20"><i
-        class="fab fa-whatsapp text-white"></i></a>
+        class="fab fa-whatsapp text-white"></i>
+    </a>
     <!--Fin de boton Whatsapp-->
-    <div class="container-fluid"> <!--Inicio de Contenedor Bootstrap-->
-        <header class="row"> <!--Inicio de Header-->
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <a href="index.html"><img src="assets/LogoAirflow.jpg" class="img-fluid header__div__logos"  alt="Logo"></a>
+    <!--Inicio de Contenedor Bootstrap-->
+    <div class="container-fluid">
+        <!--Inicio de Header-->
+        <header class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12 header__div">
+                <a href="index.html"><img src="assets/LogoAirflow.jpg" class="header__div__logo"  alt="Logo"></a>
                 <h1 class="header__h1 animate__animated animate__bounceInDown">Tu tienda de confianza!</h1>
             </div>
             <div class="col-lg-9 col-md-8 col-sm-12">
-                <a href="pages/politicas.html"><img src="assets/envios (1).png" class="img-fluid header__div__logos" alt="Envios Andreani"></a>
+                <a href="pages/politicas.html"><img src="assets/envios (1).png" class="img-fluid header__div__banner" alt="Enviosheader__div__banner"></a>
             </div>
-        </header> <!--Fin de Header-->
-        <div class="row"> <!--Inicio de contenido principal-->
-            <aside class="col-lg-3 col-md-12 col-sm-12"> <!--Inicio de barra de navegacion-->
+        </header>
+        <!--Fin de Header-->
+        <!--Inicio de contenido principal-->
+        <div class="row"> 
+            <!--Inicio de barra de navegacion lg-->
+            <aside class="col-lg-3 d-lg-block d-none">
                 <nav>
                     <ul class="nav__ul">
                         <li class="nav__ul__li"><a class="nav__ul__li__a" href="index.html">Inicio</a></li>
@@ -44,8 +50,65 @@
                         <li class="nav__ul__li"><a class="nav__ul__li__a" href="pages/contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-            </aside> <!--Fin de barra de navegacion-->
-
+            </aside>
+            <!--Fin de barra de navegacion lg-->
+            <!--Inicio de barra de navegacion md y sm-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-none col-md-12 col-sm-12">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogo
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> <!-- Idea futura hacer una seccion de pagina para cada tipo de prenda-->
+                                    <li><a class="dropdown-item" href="pages/catalogo.html">Remeras</a></li>
+                                    <li><a class="dropdown-item" href="pages/catalogo.html">Shorts</a></li>
+                                    <li><a class="dropdown-item" href="pages/catalogo.html">Calzas</a></li>
+                                    <li><a class="dropdown-item" href="pages/catalogo.html">Camperas</a></li>
+                                    <li><a class="dropdown-item" href="pages/catalogo.html">Joggings</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Politicas
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="pages/politicas.html">Envios</a></li>
+                                    <li><a class="dropdown-item" href="pages/politicas.html">Pagos</a></li>
+                                    <li><a class="dropdown-item" href="pages/politicas.html">Cambios</a></li>
+                                    <li><a class="dropdown-item" href="pages/politicas.html">Empresas</a></li>
+                                    <li><a class="dropdown-item" href="pages/politicas.html">Mayoristas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nosotros
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="pages/nosotros.html">Historia</a></li>
+                                    <li><a class="dropdown-item" href="pages/nosotros.html">Calidad</a></li>
+                                    <li><a class="dropdown-item" href="pages/nosotros.html">Rapidez</a></li>
+                                    <li><a class="dropdown-item" href="pages/nosotros.html">Futuro</a></li>
+                                    <li><a class="dropdown-item" href="pages/nosotros.html">Clientes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!--Fin de barra de navegacion md y sm-->
             <!--Inicio de Cards-->
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <div class="card">
@@ -68,7 +131,7 @@
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <div class="card">
-                    <h2 class="card__h2">Combo Mensual</h2>
+                    <h2 class="card__h2">Combos Mensuales</h2>
                     <img src="assets/Combo Mensual.jpeg" class="card-img-top img-rounded img-fluid" alt="Adidas">
                     <div class="card-body">
                         <h3 class="card-title">Conjunto New Balance</h3>
@@ -104,8 +167,10 @@
                     </div>
                 </div>
             </div>
-        </div> <!--Fin de Contenido principal-->
-        <footer class="row footer"> <!--Inicio de Footer-->
+        </div> 
+        <!--Fin de Cards--><!--Fin de Contenido principal-->
+        <!--Inicio de Footer-->
+        <footer class="row footer">
             <div class="col-lg-6 col-md-6 col-sm-12 d-none d-md-block ">
                 <h4 class="footer__div__h4">Airflow Store  |  Mapa del sitio</h4>
                 <div class="row">
@@ -151,38 +216,44 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-5 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <h4 class="footer__div__h4">Contactanos</h4>
-                    <ul class="footer__div__last-child__ul">
-                        <li>
+                <ul class="footer__div__last-child__ul">
+                    <div class="row">
+                        <li class="col-lg-6 col-md-6 col-sm-6">
                             <h5 class="footer__div__h5"> Direcciónes:<br><p class="email">Catamarca 2361</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.2233096070004!2d-64.15592258485218!3d-31.407972981406974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd90e200cdf17da8d!2sAirflow%20Store!5e0!3m2!1ses-419!2sar!4v1611105806191!5m2!1ses-419!2sar" width="180" height="130" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" target="_blank"></iframe></h5>
                         </li>
-                        <li>
-                            <h5 class="footer__div__h5">Teléfono:<br><a class="footer__div__ul__links" href="tel:0351-4897070">351-703-8854</a></h5><br>
-                            <h5 class="footer__div__h5">Email: <a class="footer__div__ul__links" href="mailto:airflowstore@hotmail.com?Subject=Te%20contacto%20desde%20la%20tienda%20web%20"><i class="far fa-envelope" target="_blank">  airflowstore@hotmail.com</i></a>
+                        <li class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="row">
+                                <h5 class="footer__div__h5 col-sm-12">Teléfono:<br><a class="footer__div__ul__links" href="tel:0351-4897070">351-703-8854</a></h5>
+                                <h5 class="footer__div__h5 col-sm-12">Email: <a class="footer__div__ul__links" href="mailto:airflowstore@hotmail.com?Subject=Te%20contacto%20desde%20la%20tienda%20web%20"><i class="far fa-envelope" target="_blank">  airflowstore@hotmail.com</i></a>
+                            </div>
                         </li>
-                    </ul>   
+                    </div>
+                </ul>   
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12">
                 <h4 class="footer__div__h4">Seguinos</h4>
-                    <ul class="footer__div__last-child__ul">
-                        <li>
-                            <a class="footer__div__ul__links redes" href="https://twitter.com/AirflowStore" target="_blank"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a class="footer__div__ul__links redes" href="https://www.instagram.com/airflow_store" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a class="footer__div__ul__links redes"  href="https://www.facebook.com/AirflowStore" target="_blank"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a class="footer__div__ul__links redes" href="https://www.youtube.com/channel/UCKLj-_MbwSFr8ghdD1sMqBg" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </li>
-                    </ul>
+                <ul class="footer__div__last-child__ul">
+                    <li>
+                        <a class="footer__div__ul__links redes" href="https://twitter.com/AirflowStore" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="footer__div__ul__links redes" href="https://www.instagram.com/airflow_store" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a class="footer__div__ul__links redes"  href="https://www.facebook.com/AirflowStore" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a class="footer__div__ul__links redes" href="https://www.youtube.com/channel/UCKLj-_MbwSFr8ghdD1sMqBg" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
                 <h4 class="footer__div__h4">Powered By:</h4><a class="footer__div__ul__links power" href="https://www.instagram.com/matiasbiglia/" target="_blank">Matias Biglia</a>
             </div>
-        </footer> <!--Fin de Footer-->
-    </div> <!--Fin de Contenedor Bootstrap-->
+        </footer>
+        <!--Fin de Footer-->
+    </div>
+    <!--Fin de Contenedor Bootstrap-->
     <!--Inicio Script de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <!--Fin Script de bootstrap-->

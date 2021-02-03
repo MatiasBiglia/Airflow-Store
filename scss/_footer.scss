@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 0.5rem;
     margin-left: 0.1rem;
-    background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), black);
+    background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), $back-color);
     .footer__div__h4 {
         color: white;
         text-transform: uppercase;
@@ -32,6 +32,7 @@
         justify-content:space-around;
         list-style: none;
         text-align: start;
+        margin:auto;
     }
     .footer__div__ul__links{
         text-decoration: none;
