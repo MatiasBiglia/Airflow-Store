@@ -2,6 +2,8 @@
     text-align: center;
     margin-top: 0.5rem;
     margin-left: 0.1rem;
+    margin-right: .1rem
+    ;
     background-image: linear-gradient(to left, rgba(32, 30, 30, 0.582), $back-color);
     .footer__div__h4 {
         color: white;
@@ -16,9 +18,9 @@
       .footer__div__h5{
         color: white;
         font-family: $tittle-font;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: lighter;
-        justify-content: space-around;
+        text-align: center;
         margin-right: 0.5rem;
       }
       .footer__div__ul {
@@ -49,7 +51,7 @@
         font-size: 2rem;
     }
 
-    .email{
+    .footer__nolink{
         font-family: $body-font;
         font-size: 1.1rem;
     }
